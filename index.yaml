@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  citrix-deployments:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-03-23T19:17:25.330406354+05:30"
+    description: A Helm chart for Citrix Ingress Controller configuring MPX/VPX
+    digest: 5a333e47340e46b3c0550354585f1d13bd1c5f529ba96a8fa10e9ebbd88a8420
+    home: https://www.citrix.com
+    icon: https://raw.githubusercontent.com/citrix/citrix-helm-charts/gh-pages/icon.png
+    maintainers:
+    - email: priyanka.sharma@citrix.com
+      name: Priyanka Sharma
+    - email: subash.dangol@citrix.com
+      name: Subash Dangal
+    name: citrix-deployments
+    sources:
+    - https://github.com/citrix/citrix-k8s-ingress-controller
+    urls:
+    - https://priyankash-citrix.github.io/helm/citrix-deployments-1.tgz
+    version: "1"
+generated: "2020-03-23T19:17:25.325770742+05:30"
