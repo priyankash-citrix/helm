@@ -1,0 +1,14 @@
+#dependencies:
+#  - name: citrixIngressController
+#    version: 1.7.6
+#    condition: stanadloneCIC
+#  - name: citrixIngressController
+#    version: 1.7.6
+#    condition: cpxWithCIC
+#dependencies:
+#- name: citrix-k8s-ingress-controller
+#  version: "1.7.6"
+#  repository: "https://citrix.github.io/citrix-helm-charts/"
+#  - name: cnc
+#    version: "1.2.3"
+#    repository: "file://./temp/charts/cnc"

@@ -1,0 +1,6 @@
+dependencies:
+- name: cnc
+  repository: file://../cnc
+  version: 1.2.3
+digest: sha256:6f297891c969d795a65314f92fcd3d789f1fc5456cbaff944a4593daf6240d4e
+generated: "2020-03-23T17:00:42.486928094+05:30"

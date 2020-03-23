@@ -1,0 +1,6 @@
+dependencies:
+- name: cnc
+  repository: file://./temp/charts/cnc
+  version: 1.2.3
+digest: sha256:ed466737e553058fd71a4e8ebd6261891bf2d90baa537d1758107794f51ca9e2
+generated: "2020-03-23T16:46:22.780398357+05:30"
