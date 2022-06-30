@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: cic1
+  namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: cic1
+    name: in-cluster
+  project: cic-apps
+  source:
+    path: citrix-ingress-controller/
+    repoURL: 'https://github.com/priyankash-citrix/helm.git'
+    targetRevision: HEAD
+    helm:
+      valueFiles:
+        - values-1.yaml
